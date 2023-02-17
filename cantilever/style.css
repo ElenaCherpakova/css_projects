@@ -1,0 +1,23 @@
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #fdf9fd;
+}
+
+.container {
+  width: 55%;
+  margin: 0 auto;
+}
+h1 {
+  line-height: 1;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+span {
+  text-shadow: 0 -4.25px blue, 0 -8.5px red, 0 4.25px green, 0 8.5px yellow;
+}
