@@ -99,9 +99,10 @@ body {
   font-size: 1rem;
 }
 
-.blog-posts {
+.blog-posts  {
   margin-top: 24px;
 }
+
 .blog-posts .blog-date {
   font-size: 0.9rem;
   color: grey;
