@@ -1,0 +1,27 @@
+body {
+  background: radial-gradient(#0288d1, #01579b);
+  height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.badge {
+  background-color: #4c8f50;
+  padding: 5px 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
