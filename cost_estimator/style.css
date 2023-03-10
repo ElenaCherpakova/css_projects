@@ -21,25 +21,82 @@ h1 {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  padding: 0 64px 64px 64px;
+  position: relative;
 }
-.tab {
+.tabs {
   display: flex;
   width: 100%;
   justify-content: space-around;
   text-transform: uppercase;
   font-weight: bold;
   color: rgb(200, 175, 255);
-}
-
-.tab p {
+  margin: 0 0 32px 0;
   padding: 16px;
 }
 
-.tab p:hover {
+.tabs p {
+  padding: 8px;
+}
+
+.tabs p:hover {
   cursor: pointer;
   color: rgb(83, 49, 156);
 }
 
-.tab p.active {
+.tabs p.active {
   color: rgb(83, 49, 156);
+  position: relative;
+}
+
+.line {
+  height: 3px;
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+  position: absolute;
+  top: 91px;
+}
+
+.tabs .active::before {
+  content: '';
+  width: 200%;
+  height: 4px;
+  background-color: rgb(83, 49, 156);
+  position: absolute;
+  bottom: -25px;
+  left: -50%;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.toggle-wrapper{
+  display: flex;
+}
+
+.toggle-wrapper img {
+  height: 40px;
+  margin: 0 16px;
+}
+.toggle {
+  background-color: rgb(83, 49, 156);
+  height: 32px;
+  width: 140px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4px 0 16px;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.toggle span:first-of-type {
+  color: #fff;
+}
+.toggle span:last-of-type {
+  color: rgb(83, 49, 156);
+  background-color: #fff;
+  padding: 4px 16px;
+  border-radius: 20px;
 }
