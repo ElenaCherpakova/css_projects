@@ -22,3 +22,40 @@ p {
 span {
   text-shadow: 0 -4.25px blue, 0 -8.5px red, 0 4.25px green, 0 8.5px yellow;
 }
+
+@media only screen and (min-width: 1700px) {
+  div {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  div {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  div {
+    width: 90%;
+    margin: 300px auto;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  span {
+    text-shadow: 0 -2.25px blue, 0 -4.5px red, 0 2.25px green, 0 4.5px yellow;
+  }
+  
+}
+
