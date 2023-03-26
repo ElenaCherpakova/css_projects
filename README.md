@@ -8,3 +8,5 @@ Portfolio of CSS projects:
 - Button Badge
 - CV project
 - Cost Estimator
+- Swipe
+
