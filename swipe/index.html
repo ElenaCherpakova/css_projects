@@ -21,9 +21,18 @@
         <li><a href="">Developers</a></li>
         <li><a href="">Pricing</a></li>
       </ul>
+
+      <div class="hamburger-button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
       <button class="primary-button navbar-button">Sign In</button>
     </nav>
     <main>
+      <!--GRADIENT BACKGROUND-->
+      <canvas id="gradient-canvas"></canvas>
       <div class="hero">
         <div class="section-container two-column">
           <div class="col-left">
@@ -143,7 +152,7 @@
                 <p class="secondary-text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aliquam, iure odio? Maxime exercitationem laboriosam fugit
-                  magni, quo beatae perspiciatis 
+                  magni, quo beatae perspiciatis
                 </p>
                 <button class="secondary-button with-icon">
                   Explore Partners
@@ -165,7 +174,7 @@
           <h2>A tech-first approach to finance</h2>
           <div class="card-container">
             <div class="card">
-              <img src="assets/cloud-icon.png" alt="" />
+              <img src="assets/cloud-icon.png" alt="" class="icon" />
               <h3>Efficient always</h3>
               <p class="secondary-text">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
@@ -175,7 +184,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="assets/cycle-icon.png" alt="" />
+              <img src="assets/cycle-icon.png" alt="" class="icon" />
               <h3>Fast improving</h3>
               <p class="secondary-text">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
@@ -185,7 +194,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="assets/shield-icon.png" alt="" />
+              <img src="assets/shield-icon.png" alt="" class="icon" />
               <h3>Tried and true</h3>
               <p class="secondary-text">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
@@ -195,7 +204,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="assets/bars-icon.png" alt="" />
+              <img src="assets/bars-icon.png" alt="" class="icon" />
               <h3>Crazy optimized</h3>
               <p class="secondary-text">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
@@ -305,30 +314,30 @@
             </p>
             <button class="primary-button with-icon">
               Start now
-              <img src="assets/arrow-right-light.svg" alt="" />
+              <img src="assets/arrow-right-light.svg" alt="" class="icon" />
             </button>
           </div>
           <div class="col-right">
             <div class="card">
-              <img src="assets/shield-icon.png" alt="" />
+              <img src="assets/shield-icon.png" alt="" class="icon" />
               <h3>Always know waht you pay</h3>
               <p class="secondary-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
               <button class="secondary-button with-icon">
                 Pricing Details
-                <img src="assets/arrow-right-purple.svg" alt="" />
+                <img src="assets/arrow-right-purple.svg" alt="" class="icon" />
               </button>
             </div>
             <div class="card">
-              <img src="assets/bars-icon.png" alt="" />
+              <img src="assets/bars-icon.png" alt="" class="icon" />
               <h3>Start your integration</h3>
               <p class="secondary-text">
                 Lorem ipsum dolor sit amet consectetur
               </p>
               <button class="secondary-button with-icon">
                 API reference
-                <img src="assets/arrow-right-purple.svg" alt="" />
+                <img src="assets/arrow-right-purple.svg" alt="" class="icon" />
               </button>
             </div>
           </div>
@@ -339,11 +348,11 @@
           <div class="col">
             <img src="assets/logo-dark.svg" alt="" id="footer-logo" />
             <div class="icon-link">
-              <img src="assets/location-icon.png" alt="" />
+              <img src="assets/location-icon.png" alt="" class="icon" />
               <a href="#">United States</a>
             </div>
             <div class="icon-link">
-              <img src="assets/comment-icon.png" alt="" />
+              <img src="assets/comment-icon.png" alt="" class="icon" />
               <a href="#">English(United States)</a>
             </div>
           </div>
@@ -383,5 +392,6 @@
         </div>
       </footer>
     </main>
+    <script src="gradient.js"></script>
   </body>
 </html>
